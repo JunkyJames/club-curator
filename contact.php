@@ -1,41 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- Title here -->
-		<title>Sheldon - About Us</title>
-		<!-- Description, Keywords and Author -->
-		<meta name="description" content="Your description">
-		<meta name="keywords" content="Your,Keywords">
-		<meta name="author" content="ResponsiveWebInc">
-      
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<!-- Google web fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-		
-		<!-- Styles -->
-		<!-- Bootstrap CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<!-- Slider Revolution CSS -->
-		<link href="css/settings.css" rel="stylesheet">
-		<!--[if IE 8]>
-		<link rel="stylesheet" href="css/settings-ie8.css">
-		<![endif]-->
-		<!-- Animate CSS -->
-		<link href="css/animate.min.css" rel="stylesheet">
-		<!-- jQuery prettyPhoto -->
-		<link href="css/prettyPhoto.css" rel="stylesheet">
-		<!-- Font awesome CSS -->
-		<link href="css/font-awesome.min.css" rel="stylesheet">		
-		<!-- Custom CSS -->
-		<link href="css/style.css" rel="stylesheet">
-		<!--[if IE]>
-			<link rel="stylesheet" type="text/css" href="css/style-ie.css" />
-		<![endif]-->
-            
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="#">
+		<?php $page_title = "Contact"; ?>
+		<?php include 'head.php'; ?>
 	</head>
 	
 	<body>

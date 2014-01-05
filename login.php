@@ -1,35 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- Title here -->
-		<title>Login/Register - Sheldon</title>
-		<!-- Description, Keywords and Author -->
-		<meta name="description" content="Your description">
-		<meta name="keywords" content="Your,Keywords">
-		<meta name="author" content="ResponsiveWebInc">
-      
-		<!-- Google web fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<!-- Styles -->
-		<!-- Bootstrap CSS -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		
-		
-		<!-- Font awesome CSS -->
-		<link href="css/font-awesome.min.css" rel="stylesheet">		
-		<!-- Custom CSS -->
-		<link href="css/style.css" rel="stylesheet">
-		
-		<!--[if IE]>
-			<link rel="stylesheet" type="text/css" href="css/style-ie.css" />
-		<![endif]-->
-            
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="#">
+		<?php if (!isset($_GET['register'])){ $page_title = "Login";}else { $page_title = "Register";} ?>
+		<?php include 'head.php'; ?>
 	</head>
 	
 	<body>
