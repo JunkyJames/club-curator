@@ -2,7 +2,7 @@
 <div class="sidebar">
     <!-- Logo starts -->
     <div class="logo">
-        <h1><a href="index.html">Club Curator</a></h1>
+        <h1><a href="/">Club Curator</a></h1>
     </div>
     <!-- Logo ends -->
 

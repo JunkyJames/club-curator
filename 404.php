@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<!-- Title here -->
-		<title>404 Error Page - Sheldon</title>
+		<title>404 Error - Club Curator</title>
 		<!-- Description, Keywords and Author -->
 		<meta name="description" content="Your description">
 		<meta name="keywords" content="Your,Keywords">
@@ -45,15 +45,7 @@
 			<div class="error-page-inner">
 				<h1>Oops!!! It's <strong>404</strong></h1>
 				<p>Something went wrong. We will try to fix it soon.</p>
-				<p>Please use the below search box to search our site.</p>
-				
-				<form class="form-inline" role="form">
-				  <div class="form-group">
-					<input type="text" class="form-control" id="search" placeholder="Type Something...">
-				  </div>
-				  <button type="submit" class="btn btn-black">Search</button>
-				</form>
-				
+				<p>In the meantime, you might like to go <a href="/">home</a></p>
 			</div>
 		 </div>
 		 		 
