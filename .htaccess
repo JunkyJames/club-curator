@@ -2,9 +2,14 @@ Options -Multiviews
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
+
+
 RewriteRule ^(.*)$ $1.php
+
 
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteRule ^register$ login?register
 
 ErrorDocument 404 /404.php
