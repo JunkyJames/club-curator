@@ -56,7 +56,7 @@
 				  
 					<!-- Login form -->
 					
-					<form role="form" action="index.html">
+					<form role="form" method="POST" action="/dashboard">
 					  <div class="form-group">
 						<label for="email">Email</label>
 						<input type="text" class="form-control" id="email" placeholder="Email">
@@ -80,7 +80,7 @@
 				  <div class="tab-pane fade <?php if (isset($_GET['register'])){ echo 'active in';} ?>" id="register">
 					<!-- Register form -->
 					
-					<form role="form" action="index.html">
+					<form role="form" method="POST" action="/dashboard">
 					  <div class="form-group">
 						<label for="name">Full Name</label>
 						<input type="text" class="form-control" id="name" placeholder="Full Name">
