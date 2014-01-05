@@ -22,11 +22,11 @@ DROP TABLE IF EXISTS `clubs`;
 CREATE TABLE `clubs` (
   `id` text NOT NULL,
   `name` text NOT NULL,
-  `username` text,
-  `password` text
+  `email` text NOT NULL,
+  `password` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-INSERT INTO `clubs` VALUES ('556883','Sydney University Jazz Society','jazzsoc',NULL);
+-- INSERT INTO `clubs` VALUES ('556883','Sydney University Jazz Society','contact@jazzsoc.org',NULL);
 
 DROP TABLE IF EXISTS `clubs_members`;
 CREATE TABLE `clubs_members` (
